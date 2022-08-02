@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css/family=Poppins&display=swap);
+
+body {
+    background-color: rgb(36, 37, 39);
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+
+div {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+img {
+    border-radius: 50%;
+}
