@@ -13,16 +13,32 @@ p {
     font-size: 30px;
 }
 
-div {
-    height: 200px;
-    width: 400px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -200px;
-    margin-left: -200px;
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  
+  /*  Center Hack */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#images {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-items: center;
+}
+
+#clearfix-hack {
+  color: rgb(36, 37, 39)
 }
 
 img {
     border-radius: 50%;
+    height: 10%;
+    width: auto;
 }
